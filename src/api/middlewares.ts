@@ -9,7 +9,7 @@ import { defineMiddlewares, MedusaNextFunction, MedusaRequest, MedusaResponse } 
         method: "DELETE",
         middlewares: [
           (req: MedusaRequest, res: MedusaResponse, next: MedusaNextFunction) => {
-            console.log("DELETE Received a request!");
+            console.log("DELETE Received a request! ");
   
             // next();
             // res.redirect(
